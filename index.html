@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img src="avatar.jpg" alt="Image not found" class="avatar" />
+        <div class="info-text">
+          <h1>Роман Старцев</h1>
+          <p>Я начинал увлекаться компьютерами еще в детстве</p>
+          <p>Все началось в 2002 году, когда родители подарили ПК</p>
+        </div>
+      </div>
+
+      <div class="card bg-yellow">
+        <h2>Что я люблю</h2>
+        <ul class="list">
+          <li>Автомобили</li>
+          <li>Видеоигры</li>
+        </ul>
+      </div>
+
+      <div class="card bg-green">
+        <h2>Мои социальные сети</h2>
+        <ul class="list">
+          <li>
+            <a href="https://vk.com/id97370858" target="_blank">Вконтакте</a>
+          </li>
+          <li>
+            <a href="https://t.me/mymakil" target="_blank">Telegram</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card bg-red">
+        <h2 class="work">Опыт работы</h2>
+        <table class="table">
+          <tr>
+            <td>НЛМК</td>
+            <td>Монтажник</td>
+            <td>2010-2011</td>
+          </tr>
+          <tr>
+            <td>МВидео</td>
+            <td>Консультант</td>
+            <td>2011-2013</td>
+          </tr>
+          <tr>
+            <td>Столовая</td>
+            <td>СисАдмин</td>
+            <td>2015-2021</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="partners">
+        <h2>Мои партнеры</h2>
+        <a href="partners.html">Посмотреть список</a>
+      </div>
+
+      <div class="contact">
+        <h2>Связаться со мной</h2>
+        <form>
+          <div class="row">
+            <div class="form-group">
+              <label for="name">Ваше имя:</label>
+              <input type="text" id="name" placeholder="Введите имя..." />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Ваш email:</label>
+              <input type="email" id="email" placeholder="Введите email..." />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="text">Ваше сообщение:</label>
+            <textarea name="" id="text" cols="30" rows="5"></textarea>
+          </div>
+          <input class="btn" type="submit" value="Связаться" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
